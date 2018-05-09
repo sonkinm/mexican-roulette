@@ -105,7 +105,7 @@ bot.on('/drawcard', msg => {
                     xtratext = "New rule";
                     break;
                 case card.value == 12:
-                    xtratext = "Pick a whore";
+                    xtratext = "Pick a servant";
                     break;
                 case card.value == 13:
                     xtratext = "You are the question master";
