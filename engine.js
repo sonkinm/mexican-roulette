@@ -77,7 +77,7 @@ bot.on('/stop', msg => {
 bot.on('/newgame', msg => {
     games.set(msg.chat.id, new deck());
     drinks.set(msg.chat.id, 0);
-    return msg.reply.text("Let's vittu go");
+    return msg.reply.text("Let's go");
 })
 
 bot.on('/drawcard', msg => {
